@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Regular expression</h2>
+ <p id="regex">Welcome to iNeuron, this is full stack blockchain develoment</p>
+ <script>
+    function replaceText(){
+ let text=document.getElementById("regex").innerHTML;
+ setTimeout(()=>document.getElementById("regex").innerHTML=text.replace("blockchain","javascript"),2000);
+}
+ </script>   
+ <button onclick="replaceText()">Click me to change text</button>
+</body>
+</html>

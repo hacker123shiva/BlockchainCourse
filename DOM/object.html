@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let car={
+        car_brandName:"Hyundai",
+        car_name:"Creta",
+        car_engine:"v8",
+        car_yom:"2022",
+        car_price:"15Lakh",
+        car_color:"white",
+        electric:function(){
+            return "the car is not an electric vehicle";
+        }};
+        document.write(`<p> the car name is ${car.car_name}</p>`);
+        document.write(`<h3> ${car.electric()} </h3>`);
+    
+   </script> 
+</body>
+</html>
